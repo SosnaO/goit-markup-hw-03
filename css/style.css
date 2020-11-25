@@ -23,9 +23,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -140,7 +139,6 @@ span {
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
-  
 }
 
 .adress .logo {
@@ -167,4 +165,7 @@ span {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+
+.adress-item {
 }

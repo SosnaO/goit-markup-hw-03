@@ -22,14 +22,14 @@
 /*  button*/
 .button {
   display: inline-block;
-  position: absolute;
+
   padding: 10px 32px;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
+
   align-items: center;
   letter-spacing: 0.06em;
   min-width: 200px;
@@ -53,7 +53,7 @@
   display: flex;
 }
 
-fet .features-title {
+.features-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -65,6 +65,7 @@ fet .features-title {
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
+  display: flex;
 }
 
 .work-title {
@@ -75,11 +76,21 @@ fet .features-title {
   text-align: center;
   margin-bottom: 50px;
 }
+.flex-element {
+  margin-right: 30px;
+}
+
+.flex-element:nth-child(3n) {
+  margin-right: 0;
+}
 
 /*  team*/
 .team {
-  padding-top: 94px;
   padding-bottom: 50px;
+  display: flex;
+
+  background: #f5f4fa;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -95,10 +106,22 @@ fet .features-title {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+}
+
+.team-element {
+  margin-right: 30px;
+  outline: 1px solid #eeeeee;
+  background: #ffffff;
+}
+
+.team-element:nth-child(4n) {
+  margin-right: 0;
 }
