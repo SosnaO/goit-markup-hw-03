@@ -23,8 +23,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-left: 15px;
-  padding-right: 15px;
+
+  padding-left: 215px;
+  padding-right: 215px;
 }
 
 .list {
@@ -37,6 +38,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
+   
 }
 
 /*logo*/
@@ -66,7 +68,8 @@ span {
 /* Site nav */
 .main-nav {
   display: flex;
-  align-items: center;
+  align-items: center; 
+  
 }
 
 .site-nav {
@@ -139,10 +142,12 @@ span {
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+  
 }
 
 .adress .logo {
   color: var(--primary-white-color);
+ 
 }
 
 .adress .logo:hover,
@@ -167,5 +172,9 @@ span {
   text-decoration: none;
 }
 
-.adress-item {
+
+.adress-footer {
+display: flex;
+flex-direction: column;
+
 }
