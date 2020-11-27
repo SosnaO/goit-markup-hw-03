@@ -1,3 +1,7 @@
+ul {
+  list-style: none;
+}
+
 /*  button*/
 .button-nav .link:hover,
 .button-nav .link:focus {
@@ -5,8 +9,14 @@
   background-color: var(--accent-color);
 }
 
+.flex-container {
+  padding-top: 94px;
+  padding-top: 94px;
+}
+
 .flex-element {
   width: ((100%-60px)/3);
+
   margin-right: 30px;
   margin-bottom: 30px;
   outline: 1px solid #eeeeee;
