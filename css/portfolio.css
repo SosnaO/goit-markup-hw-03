@@ -4,7 +4,7 @@ li.item {
   list-style: none;
 }
 
-ul. {
+ul {
   padding: 0px;
   margin: 0px;
   list-style: none;
@@ -38,7 +38,7 @@ header {
 }
 
 .flex-element:nth-last-child(-n + 3) {
-  margin-botton: 0;
+  margin-bottom: 0;
 }
 
 .button-item {
