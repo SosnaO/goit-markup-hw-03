@@ -5,6 +5,11 @@
  ссылки -  #2196F3;  
   цвет фона  "Наша команда" #F5F4FA;
   */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 :root {
   --primary-text-color: #757575;
