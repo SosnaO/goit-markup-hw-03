@@ -118,8 +118,8 @@ ul {
 /*  team*/
 .team {
   padding-bottom: 94px;
+  padding-top: 94px;
   display: flex;
-
   background: #f5f4fa;
 }
 

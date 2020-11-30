@@ -28,9 +28,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 ul.list {
@@ -132,6 +129,8 @@ span {
 /*Футер*/
 .footer {
   background-color: var(--primary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress {
@@ -142,10 +141,6 @@ span {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  width: 1600px;
-  height: 252px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .adress .logo {
