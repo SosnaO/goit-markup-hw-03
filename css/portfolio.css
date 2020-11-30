@@ -25,6 +25,7 @@ header {
 .flex-container {
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1170px;
 }
 .flex-element {
   width: ((100%-60px)/3);
@@ -77,14 +78,15 @@ header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px 24px;
+  margin: 0px;
+  padding-bottom: 4px;
 }
 
 .portfolio-list {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  margin: 0px 24px 20px 24px;
+  margin: 0px;
 }
 .portfolio-nav {
   display: flex;
@@ -119,4 +121,8 @@ header {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   border-top-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }

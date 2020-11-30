@@ -41,6 +41,8 @@ ul.list {
   margin-right: auto;
   width: 1170px;
   padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*logo*/
