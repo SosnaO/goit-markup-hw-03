@@ -19,6 +19,12 @@ img {
   --primary-bg-color: #2f303a;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
